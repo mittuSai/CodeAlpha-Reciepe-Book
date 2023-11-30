@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reciepe Book </title>
+    <link rel="stylesheet" href="./bootstrap.css">
+    <link rel="stylesheet" href="./index.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat&family=Merriweather:ital,wght@1,900&display=swap" rel="stylesheet">
+  
+   
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+</head>
+<body id="indexBody" onload="displayReciepes()">
+    <header><div id="headingContainer">
+        <img src="./headicon.png" alt="icon" id="headIcon">
+
+        <h1 id="heading" >Reciepe Book</h1>
+
+    </div>
+<div id="details-div">
+    <h2 id="header-aboutme">About me</h2>
+    <h2 id="header-cantactus">cantact us</h2>
+</div>
+</header>
+   
+    <nav id="navbar">
+     
+        
+        <!-- <h6>about us </h6>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <h6>cantact us </h6>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
+        <a href="#container"><button id="viewButton">view Reciepes</button></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+        <h6><a href="./AddReciepe.html"><button id="addButton">add reciepe</button></a></h6>
+        <h6><a href="./AddReciepe.html"><button id="about-me">About Me</button></a></h6>
+        <h6><a href="./AddReciepe.html"><button id="cantact-me">Cantact Me</button></a></h6>
+    </nav>
+    <div id="gallery" onload="autoChange()">
+
+
+    </div>
+    
+    <div id="container">
+        
+
+        
+       <h1 id="noReciepe">please Enter any Reciepe <a href="./AddReciepe.html" target="_parent">click here to add</a></h1>
+
+
+
+    </div>
+  
+    <!-- <footer id="footer">
+    <em>&copy; sai kumar reciepie book app</em>
+   
+    
+   
+    </footer> -->
+    
+</body>
+<script src="./index.js" defer></script>
+</html>

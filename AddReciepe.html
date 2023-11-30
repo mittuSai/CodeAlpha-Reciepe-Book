@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADD RECIEPE</title>
+    <link rel="stylesheet" href="./addReciepe.css">
+    <link rel="stylesheet" href="./bootstrap.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+   
+</head>
+<body>
+    <nav>
+
+    </nav>
+
+    <img src="./images/pizza.png" alt="" id="pizza">
+    <h1 id="qoute1">Only the pure in heart❤️</h1>
+    <h1 id="qoute2">can make  good Food</h1>
+
+    <div  id="inputContainer">
+        <form action="./index2.html">
+          
+         
+                
+                <input type="text" id="name"  placeholder="Name Of the reciepie" class="form-control w-50">
+            
+             
+              <select name="category" id="category" class="" >
+                <option value="all">Choose a Category...</option>
+                <option value="appetizers">Appetizers</option>
+                <option value="beverages">Beverages</option>
+                <option value="breakfast">Breakfast</option>
+                <option value="desserts">Desserts</option>
+                <option value="main dishes">Main Dishes</option>
+                <option value="salads">Salads</option>
+                <option value="side dishes">Side Dishes</option>
+                <option value="soups and stews">Soups and Stews</option>
+            </select>
+              
+              
+              <textarea name="" id="ingridients" cols="30" rows="1" class="form-control w-50" placeholder="please add Ingridients"></textarea>
+              
+             
+              <textarea name="" id="description" cols="30" rows="1" placeholder="please add description" class="form-control w-50" ></textarea>
+              
+              
+             
+              <textarea name="steps" id="steps" cols="30" rows="1" placeholder="STEPS" class="form-control w-50"></textarea>
+             
+              <textarea name="" id="remarks" cols="30" rows="1" placeholder="IF ANY REMARKS" class="form-control w-50"></textarea>
+              
+              <input type="text" id="author" placeholder="AUTHOR" class="form-control w-50" >
+             
+              
+              <input type="url" id="imgurl"  placeholder="image URL" class="form-control w-50">
+              <p>* please copy image adress from google images</p>
+              
+               <a href="./index2.html"></a>
+               <button type="button" onclick="handleSubmit()">ADD</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="RESET" id="reset" value="RESET">
+          </form> 
+          <h1 id="warning"></h1>   
+    </div>
+    
+    <footer id="footer">
+
+    </footer>
+
+    <script src="./AddReciepe.js" defer></script>
+</body>
+</html>
